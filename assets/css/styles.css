@@ -459,8 +459,8 @@ body {
     margin-bottom: 10px;
   }
   
-  /* Стили для кнопки изменить */
-  .edit-button {
+/* Стили для кнопки изменить */
+.edit-button {
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
@@ -477,6 +477,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: none; /* Кнопка сохранить изначально скрыта */
   }
   
   /* Стили для кнопки отменить */
@@ -487,7 +488,9 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: none; /* Кнопка отменить изначально скрыта */
   }
+  
   
 
 

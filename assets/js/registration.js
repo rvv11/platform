@@ -22,8 +22,5 @@ document.addEventListener("DOMContentLoaded", function () {
     // Вызываем функцию checkFields при загрузке страницы
     checkFields();
 
-    // Добавляем обработчики событий для полей ввода
-    //emailInput.addEventListener("input", checkFields);
-    //loginInput.addEventListener("input", checkFields);
-    //passwordInput.addEventListener("input", checkFields);
+    
 });
