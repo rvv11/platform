@@ -1,0 +1,751 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #F0F8FF;
+}
+
+.container {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup-btn {
+    background-color: #007BFF;
+    color: white;
+}
+
+.login-btn {
+    background-color: white;
+    color: #007BFF;
+    border: 2px solid #007BFF;
+    margin-left: 10px;
+}
+
+.video {
+    margin-top: 20px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 315px;
+}
+
+.video-title {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #F0F8FF;
+}
+
+.container {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.registration-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.registration-form input[type="email"],
+.registration-form input[type="text"],
+.registration-form input[type="password"],
+.registration-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.registration-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registration-form button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.login-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.password-recovery-link {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Стили для страницы Восстановление пароля */
+.password-recovery-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.password-recovery-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.password-recovery-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.password-recovery-form button:hover {
+    background-color: #0056b3;
+}
+
+.recovery-info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+/* Ваши существующие стили */
+
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.choose-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.choose-btn:hover {
+    background-color: #0056b3;
+}
+
+.skip-link {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.avatar-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px; /* Расстояние между аватарами */
+}
+
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Превращаем в круг */
+    overflow: hidden; /* Обрезаем изображение внутри круга */
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Заполняем круг изображением */
+}
+
+.avatar:hover {
+    transform: scale(1.3); /* Немного увеличиваем при наведении */
+}
+
+.avatar.selected {
+    border: 2px solid #007BFF; /* Добавляем голубую рамку для выбранного аватара */
+}
+
+.avatar-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Расстояние между кнопками и аватарами */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #B0C4DE;
+}
+
+.tab.active {
+    background-color: #F0F8FF;
+    color: white;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 20px 15px 20px;
+}
+
+.avatar-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.tabs {
+    display: flex;
+    width: 100%;
+}
+.tab {
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Стили для контейнера профиля */
+.profile-container {
+    display: flex;
+    justify-content: space-between; /* Разделение данных и баланса с курсами на две части */
+    align-items: flex-start; /* Выравнивание данных по верхнему краю */
+    padding: 20px;
+  }
+  
+  /* Стили для левой части (данные) */
+  .profile-data {
+    flex: 1; /* Растягиваем на всю доступную ширину */
+    margin-right: 20px; /* Расстояние между данными и балансом/курсами */
+  }
+  
+  /* Стили для баланса и активных курсов */
+  .profile-balance-courses {
+    flex: 1; /* Растягиваем на всю доступную ширину */
+  }
+  
+  /* Стили для баланса */
+  .balance {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Стили для активных курсов */
+  .active-courses {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Стили для выпадающего списка (язык и часовой пояс) */
+  .select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Стили для кнопки изменить */
+  .edit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Стили для кнопки сохранить */
+  .save-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Стили для кнопки отменить */
+  .cancel-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Общие стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для левой части страницы (урок) */
+.lesson-left {
+    background-color: #f0f0f0;
+    border-radius: 10px 0 0 10px;
+    padding: 20px;
+    float: left; /* Добавим float, чтобы левая часть выровнилась слева */
+    width: 75%; /* Занимает 75% ширины страницы */
+}
+
+/* Стили для правой части страницы (Google Meet и кнопка) */
+.lesson-right {
+    background-color: #007bff;
+    border-radius: 0 10px 10px 0;
+    padding: 20px;
+    float: right; /* Добавим float, чтобы правая часть выровнилась слева */
+    width: 25%; /* Занимает 25% ширины страницы */
+    color: #fff;
+}
+
+/* Для кнопки "Позвонить" в правой части */
+.lesson-right button {
+    background-color: #28a745; /* Зеленый цвет */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Добавьте стили для чата, если необходимо */
+.lesson-chat {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Общие стили для курса в левой части */
+.course {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Стили для названия курса и номера урока */
+.course-name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #007bff; /* Синий цвет */
+}
+
+.lesson-number {
+    font-size: 14px;
+    color: #888;
+}
+
+/* Стили для кнопок "Назад" и "Вперед" */
+.lesson-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.lesson-nav button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Стили для дополнительных материалов */
+.extra-materials {
+    margin-top: 10px;
+}
+
+.extra-materials button {
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Стили для текста и карандаша */
+.text-editor {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-editor button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Стили для урока в чистом виде */
+.lesson-content {
+    margin-top: 20px;
+    overflow-y: scroll;
+    max-height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Стили для Google Meet и иконки камеры */
+.video-call {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.video-call img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/* Добавьте стили для чата, если необходимо */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Общие стили для страницы */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #F0F8FF;
+}
+
+/* Навигационная линия и аватар */
+.navigation {
+    background-color: #007BFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    color: white;
+}
+
+.avatar-container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+
+
+/* Вкладки */
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #007BFF;
+    padding: 10px 0;
+}
+
+.tab {
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tab.active {
+    background-color: #0056b3;
+}
+
+/* Таблица расписания */
+.schedule-table {
+    margin: 10px;
+    border-collapse: collapse;
+    width: calc(100% - 20px);
+    table-layout: fixed;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #007BFF;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Стили для первой строки и первой ячейки таблицы */
+.schedule-table th:first-child,
+.schedule-table td:first-child {
+    background-color: #007BFF;
+    color: white;
+}
+
+.schedule-table th:first-child {
+    width: 15%;
+}
+
+.schedule-table td:first-child {
+    font-weight: bold;
+}
+
+/* Стили для светло-голубого цвета */
+.schedule-table th:not(:first-child),
+.schedule-table td:not(:first-child) {
+    background-color: #F0F8FF;
+}

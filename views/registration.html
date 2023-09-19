@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="D:\Platforma\assets\css\styles.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Регистрация</h1>
+        <form class="registration-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="login">Придумай логин:</label>
+            <input type="text" id="login" name="login" placeholder="Используй только латинские буквы, лучше всего имя и фамилию" required>
+
+            <label for="password">Придумай пароль:</label>
+            <input type="password" id="password" name="password" placeholder="Используй только латинские буквы и цифры" required>
+
+            <label for="comment">Комментарий/Вопрос:</label>
+            <textarea id="comment" name="comment"></textarea>
+
+            
+            <button type="button" class="btn signup-btn" id="signupButton" disabled onclick="checkFieldsAndRedirect();">Зарегистрироваться</button>
+
+
+        </form>
+        
+    </div>
+    
+    
+</body>
+<script src="assets/js/registration.js"></script>
+</html>
