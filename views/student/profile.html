@@ -23,31 +23,29 @@
     <div class="profile-container">
         <!-- Левая часть с данными -->
         <div class="profile-data">
+                        
             <h1>Логин:</h1>
-            <!-- Прямоугольник для редактирования -->
-            <div class="edit-box">
+                <div class="edit-box">
                 <span class="data">Текущий логин</span>
-                <button class="edit-button">Изменить</button>
-                <button class="save-button">Сохранить</button>
-                <button class="cancel-button">Отменить</button>
+                <button class="edit-button" onclick="enableEdit()">Изменить</button>
+                <button class="save-button" onclick="saveEdit()" style="display: none;">Сохранить</button>
+                <button class="cancel-button" onclick="cancelEdit()" style="display: none;">Отменить</button>
             </div>
-            
+
             <h1>Имейл:</h1>
-            <!-- Прямоугольник для редактирования -->
-            <div class="edit-box">
+                <div class="edit-box">
                 <span class="data">Текущий имейл</span>
-                <button class="edit-button">Изменить</button>
-                <button class="save-button">Сохранить</button>
-                <button class="cancel-button">Отменить</button>
+                <button class="edit-button" onclick="enableEdit()">Изменить</button>
+                <button class="save-button" onclick="saveEdit()" style="display: none;">Сохранить</button>
+                <button class="cancel-button" onclick="cancelEdit()" style="display: none;">Отменить</button>
             </div>
             
             <h1>Пароль:</h1>
-            <!-- Прямоугольник для редактирования -->
-            <div class="edit-box">
+                <div class="edit-box">
                 <span class="data">Текущий пароль</span>
-                <button class="edit-button">Изменить</button>
-                <button class="save-button">Сохранить</button>
-                <button class="cancel-button">Отменить</button>
+                <button class="edit-button" onclick="enableEdit()">Изменить</button>
+                <button class="save-button" onclick="saveEdit()" style="display: none;">Сохранить</button>
+                <button class="cancel-button" onclick="cancelEdit()" style="display: none;">Отменить</button>
             </div>
             
             <h1>Язык:</h1>
@@ -78,7 +76,7 @@
             <div class="active-courses">
                 <h1>Активные курсы:</h1>
                 <!-- Здесь будут отображаться активные курсы -->
-                <!-- Пример: -->
+                
                 <div class="course">
                     <div class="course-name" style="color: #FF5733;">Название курса 1:</div>
                     <div class="course-price">1000 зл</div>
@@ -89,7 +87,7 @@
                     <div class="course-price">800 зл</div>
                     <div class="course-tutor">Репетитор 2</div>
                 </div>
-                <!-- Продолжайте добавлять блоки для других активных курсов по аналогии -->
+                
             </div>
             
             <!-- Кнопка для добавления курса -->
@@ -97,7 +95,7 @@
         </div>
     </div>
     
-    <!-- Скрипты и дополнительные файлы -->
+    <script src="D:\Platforma\assets\js\profile.js"></script>
 </body>
 </html>
 
